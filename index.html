@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork 8</title>
+    <style>
+        .container {
+            background-color:coral;
+            overflow: hidden;
+            margin: 10px;
+        }
+
+        .box_container {
+            width: 25%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .box {
+            margin: 10px;
+            width: 250px;
+            height: 80px;
+            background-color: dodgerblue;
+        }
+
+        .big_box {
+            background-color: dodgerblue;
+            height: 110px;
+            width: 125px;
+            margin: 10px;
+        }
+
+        .small_box {
+            background-color: dodgerblue;
+            height: 50px;
+            width: 250px;
+            margin: 10px;
+        }
+
+        .float_left {
+            float: left;
+        }
+
+        .float_right {
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .small_container {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box float_left"></div>
+        <div class="box float_right"></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="container">
+        <div class="box float_left"></div>
+        <div class="box float_right"></div>
+        <div class="box float_right"></div>
+        <div class="box float_right"></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="container">
+        <div class="box float_left"></div>
+        <div class="box float_left"></div>
+        <div class="box float_right"></div>
+        <div class="box float_right"></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="container">
+        <div class="small_container">
+            <div class="small_box"></div>
+            <div class="small_box"></div>
+        </div>
+        <div class="big_box float_right"></div>
+    </div>
+
+    <div class="container">
+        <div class="box_container">
+            <div class="small_container">
+                <div class="small_box"></div>
+                <div class="small_box"></div>
+            </div>
+            <div class="big_box float_right"></div>
+        </div>
+    </div>
+</body>
+</html>
